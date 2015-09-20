@@ -1,7 +1,0 @@
-CREATE TABLE purchase_history (
-^       ^       purchase_history_id int_unsigned(10) PRIMARY KEY NOT NULL AUTO_INCREMENT,
-^       ^       client_id int_unsigned(10) NOT NULL,
-^       ^       product_id int_unsigned(10) NOT NULL,
-^       ^       purchase_number int_unsigned(10) NOT NULL,
-^       ^       purchase_datetime datetime NOT NULL,
-^       ^       )
