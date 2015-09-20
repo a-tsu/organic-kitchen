@@ -6,5 +6,6 @@ CREATE TABLE client (
     sex 		tinyint(1) unsigned NOT NULL, 
     postal_code 	int(7) unsigned NOT NULL, 
     address 		varchar(128) NOT NULL, 
+    email_address 	varchar(128) NOT NULL, 
     passward 		varchar(64) NOT NULL
 )
