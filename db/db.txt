@@ -1,0 +1,5 @@
+$ mysql -u root -e "create database organic_kitchen default charset utf8"
+
+$ mysql -u root -D organic_kitchen -e < client.table
+$ mysql -u root -D organic_kitchen -e < product.table
+$ mysql -u root -D organic_kitchen -e < purchase_history.table
