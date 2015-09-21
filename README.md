@@ -1,4 +1,7 @@
-<h1>How to use</h1>
+# organic-kitchen dev
+## How to use
+
+this is started as ready for **LAMP** server situation.
 
 to enable php file as .html in apache
 ```
