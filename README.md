@@ -3,7 +3,7 @@
 
 this is started as ready for **LAMP** server situation.
 
-to enable php file as .html in apache
+#to enable php file as .html in apache
 ```
 $ sudo vim /etc/httpd/conf.d/php.conf
 #
@@ -15,18 +15,18 @@ AddType text/html .php
 $ sudo service httpd restart
 ```
 
-to include the header file
+#to include the header file
 ```
 $ sed -i -e "1i <?php include_once('/var/www/html/header.inc'); ?>" your.file
 ```
 
 
-to include the hooter file
+#to include the hooter file
 ```
 $ echo "<?php include_once('/var/www/html/header.inc'); ?>" >> your.file
 ```
 
-to reflect editted files
+#to reflect editted files
 ```
 $ bash reflect.sh
 ```
