@@ -12,14 +12,13 @@ AddType text/html .php
 $ sudo service httpd restart
 ```
 
-to include header file
+to include the header file
 ```
-<?php include_once('/var/www/html/header.inc'); ?>
+$ sed -i -e "1i <?php include_once('/var/www/html/header.inc'); ?>" your.file
 ```
-- put it on the first line
 
-to include hooter file
+
+to include the hooter file
 ```
-<?php include_once('/var/www/html/header.inc'); ?>
+echo "<?php include_once('/var/www/html/header.inc'); ?>" >> your.file
 ```
-- put it on the last line

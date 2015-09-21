@@ -2,7 +2,7 @@
 ようこそ、ゲストさん<br>
 <!-- Todo:ゲスト部分の出し分け(未ログイン：ゲスト表示 / ログイン済み：ユーザ名表示)-->
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<IMG SRC="http://www.organic-kitchen.co.jp/rogo%20BK.gif" ALT="LOGO" WIDTH="250" HEIGHT="100"><br>
+<a href="/var/www/html/index.html"><img src="http://www.organic-kitchen.co.jp/rogo%20BK.gif" alt="LOGO" width="250" height="100"><br>
 旬のお野菜たっぷりのお弁当<br>
 <nav>
 	<a href="https://www.facebook.com/organic.kitchen.2009">Facebook</a></li>
