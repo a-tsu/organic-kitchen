@@ -23,7 +23,7 @@ $ sed -i -e "1i <?php include_once('/var/www/html/header.inc'); ?>" your.file
 
 ### to include the hooter file
 ```
-$ echo "<?php include_once('/var/www/html/header.inc'); ?>" >> your.file
+$ echo "<?php include_once('/var/www/html/footer.inc'); ?>" >> your.file
 ```
 
 ### to reflect editted files
