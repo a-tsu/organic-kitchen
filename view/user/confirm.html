@@ -1,0 +1,29 @@
+<?php include_once('/var/www/html/header.inc'); ?>
+<!-- header -->
+<body>
+以下の内容で登録します。よろしいですか？<br>
+<form method="post" action="done.html">
+ユーザ名：<br>
+<?php echo htmlspecialchars($_POST['client_name']); ?><br>
+名前：<br>
+<?php echo htmlspecialchars($_POST['full_name']); ?><br>
+生年月日：<br>
+<?php echo htmlspecialchars($_POST['birth_date']); ?><br>
+性別：<br>
+<?php echo htmlspecialchars($_POST['sex']); ?><br>
+<!-- 男性 -->
+郵便番号：<br>
+<?php echo htmlspecialchars($_POST['postal_code']); ?><br>
+<!-- 123 - 1234 -->
+住所：<br>
+<?php echo htmlspecialchars($_POST['address']); ?><br>
+メールアドレス：<br>
+<?php echo htmlspecialchars($_POST['email_address']); ?><br>
+
+
+<!--<?php var_dump($_POST); ?><br>-->
+<input type="submit" value="登録">
+</form>
+<input type="button" value="戻る" onClick="history.back()">
+<!-- footer -->
+<?php include_once('/var/www/html/footer.inc'); ?>
