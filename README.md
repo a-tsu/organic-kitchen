@@ -30,3 +30,7 @@ $ echo "<?php include_once('/var/www/html/footer.inc'); ?>" >> your.file
 ```
 $ bash reflect.sh
 ```
+
+
+### when you use fastpay
+You need to put bootstrap(js,css,fonts dir) to public dir.
